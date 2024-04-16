@@ -1,0 +1,59 @@
+.wap1{
+	border: 2px solid rgb(126, 51, 106);
+	border-radius: 15px;
+	width: 100%;
+	height: 500px;
+	background: #232323;
+	margin-top: 2%;
+}
+.h1{
+	margin-top: -15%;
+	font-family: "OCR A Std", monospace;
+	font-size: 35px;
+	padding: 20px;
+	color: rgb(126, 51, 106);
+}
+.p1{
+
+	color: #dcdcdc;
+	font-size: 25px;
+	padding: 10px;
+	margin-top: 0%;
+}
+.p2{
+	color: #dcdcdc;
+	font-size: 25px;
+	padding: 20px;
+	margin-top: -1%;
+
+}
+.img{
+	border-radius: 15px;
+	margin-top: -0.45%;
+	filter: brightness(50%);
+	margin-left: 0.5%;
+}
+button.glo{
+	background: #232323;
+	border-radius: 10px;
+	height: 50px;
+	cursor: pointer;
+ color:rgb(130, 60, 110);
+ padding: 10px 20px;
+ width:350px;
+ text-decoration:none;
+ text-align:center;
+margin-top: -7%;
+margin-left: 10%;
+ display: block;
+ background-image: linear-gradient(to left,transparent,transparent 50%,rgb(126, 51, 106) 50%,rgb(126, 51, 106));
+ background-position: 100% 0;
+ background-size: 200% 100%;
+ transition: all .25s ease-in;
+ font: 400 18px tahoma;
+ border: 1px solid rgb(126, 51, 106);
+}
+button.glo:hover {
+background-position: 0 0;
+color:#dcdcdc;
+}
