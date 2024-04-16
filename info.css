@@ -1,0 +1,105 @@
+#table{
+
+}
+
+#table{
+	position: relative;
+	border-radius: 10px;
+	background: #232323;
+	margin-top: 25px;
+	height: 510px;
+	top:0;
+	left: 0;	
+
+}
+
+
+.button{
+	--width: 210px;
+	--height: 90px;
+	--begin: #DCDCDC;
+	--end: rgb(126, 51, 106);
+	position: relative;
+	display: inline-block;
+	width: var(--width);
+	height: var(--height);
+	
+	color: var(--begin);
+	text-align: center;
+	font-family: "OCR A Std", monospace;
+	font-size: 15px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	text-decoration: none0;
+	transition: 2s;
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.button:hover,
+.button:focus{
+	outline: none;
+	color: var(--end)
+}
+
+.button_svg, .button_rect{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	fill: none;
+}
+
+.button_rect{
+	stroke: var(--begin);
+	stroke-width: 5;
+	stroke-dasharray: var(--height) var(--width);
+	stroke-dashoffset: calc(
+		2 *var(--width) + 2 * var(--height) + var(--height)/2
+	);
+	transition: 2s;
+
+}
+
+.button:hover .button_rect,
+.button:focus .button_rect{
+	stroke:var(--end);
+	stroke-dashoffset: calc(var(--height) + var(--height) / 2);
+}
+
+#text_js{
+	font-size: 2em;
+	text-align: center;
+	font-family: Times, Times New Roman, serif;
+	letter-spacing: 7px;
+	color: #07f0e4;
+	line-height: 50px;	
+    animation: color-change 10s infinite;
+}
+
+@keyframes color-change {
+    0% { color: #DCDCDC; }
+  
+    50% { color: rgb(126, 51, 106); }
+
+    100%{
+    	color: #DCDCDC;
+    }
+}
+#Imgbtn{
+
+	width: 100%;
+	height: 100%;
+
+}
+#imgbut{
+	border-radius: 10px;
+	 background-color:black;
+	 width: 100%;
+	height: 100%;
+
+}
+#img{
+	border-radius: 10px;
+}

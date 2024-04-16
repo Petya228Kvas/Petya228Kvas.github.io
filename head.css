@@ -1,0 +1,136 @@
+.head{
+	position: relative;
+	border: groove 5px black;
+	border-radius: 15px;
+	background: #232323	;
+  overflow: hidden;
+  height: 110px;
+  min-width: 1000px;
+
+}
+
+html button:hover{
+	cursor: pointer;
+}
+
+#number{
+  position: relative;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	color: rgb(166, 63, 103);
+	position: absolute;
+	top: 35%;
+	left: 7%;
+	font-size: 20px;
+	display: table;
+}
+#number {
+  top: 33px;
+  left: 120px;
+}
+
+
+
+.spot {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+
+
+
+}
+
+.svg-wrapper {
+  text-align: center;
+  white-space: nowrap;
+  font-family: sans-serif;
+  position: relative;
+  top: -70px;
+  left: 290px;
+  width: 150px;
+  /*make sure to use same height/width as in the html*/
+  height: 40px;
+  display: inline-block;
+  border-radius: 3px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 13px;
+}
+
+#shape {
+  stroke-width: 6px;
+  fill: transparent;
+  stroke: White;
+  stroke-dasharray: 85 400;
+  stroke-dashoffset: -220;
+  transition: 1s all ease;
+
+}
+
+
+#text {
+  
+
+  margin-top: -34px;
+  text-align: center;
+}
+
+#text a {
+
+  color: rgb(126, 51, 106);
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 1.0em;
+}
+
+
+.svg-wrapper:hover #shape 
+{
+  
+  color: rgb(115, 51, 108);
+  stroke-dasharray: 50 0;
+  stroke-width: 3px;
+  stroke-dashoffset: 0;
+  stroke: rgb(115, 51, 108);
+}
+
+#b1{
+  top: -71;
+  left: 19%;
+}
+
+#b2{
+  top:-115px; 
+  left: 51%;
+}
+
+#b3{
+  top:-159px; 
+  left: 62%;
+}
+#b4{
+  top: -202px;
+  left: 73%;
+}
+
+
+
+.profile{
+	border: 0px solid black;
+	position: absolute;
+	top: 13%;
+	left: 89%;
+	
+	display: table;
+	background: #232323;
+	border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+.profile:hover{
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);
+	cursor: pointer;
+}
+
