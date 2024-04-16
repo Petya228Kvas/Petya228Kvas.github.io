@@ -1,0 +1,114 @@
+body{
+	margin: 0;
+	height: 100%;
+}
+#img{
+	margin-left: 3%;
+	box-sizing: border-box;
+}
+
+.main{
+	right: 50%;
+	width: 500px;
+	margin:0 10%;
+	height: 600px;
+	left: 50%;
+	position: ;
+	border: 1px solid #232323;
+	background: #232323;
+	border-radius: 15px;
+}
+h1{
+	font-family: "OCR A Std", monospace;
+	color: rgb(126, 51, 106);
+}
+
+.input-box {
+  /* родительский блок относительно которого будем формировать положение
+  тега label */
+  position: relative;
+}
+
+input {
+  background: #232323;
+  padding: 10px;
+  /* закруглим края у поля ввода */
+  border-radius: 11px;
+  width: 370px;
+  border: 1px solid #dcdcdc;
+  -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    font-size: 20px;
+    color: #dcdcdc;
+    font-family: cursive;
+}
+
+label {
+
+  position: absolute;
+  /* смещение относительно родительского элемента 10px вверх от верхнего края и   10px влево */
+  top: -15px;
+  left: 70px;
+  background: #232323;
+  padding: 0px 5px;
+  color: #dcdcdc;
+  font-family: "OCR A Std", monospace;
+  font-size: 20px;
+  word-spacing: -8px;
+
+}
+input:focus{
+	border: 1px solid rgb(126, 51, 106);
+}
+
+
+button.glo{
+	background: #232323;
+	border-radius: 10px;
+	height: 50px;
+	cursor: pointer;
+ color:rgb(130, 60, 110);
+ padding: 10px 20px;
+ width:350px;
+ text-decoration:none;
+ text-align:center;
+ margin:-10px auto;
+ display: block;
+ background-image: linear-gradient(to left,transparent,transparent 50%,rgb(126, 51, 106) 50%,rgb(126, 51, 106));
+ background-position: 100% 0;
+ background-size: 200% 100%;
+ transition: all .25s ease-in;
+ font: 400 18px tahoma;
+ border: 1px solid rgb(126, 51, 106);
+}
+button.glo:hover {
+background-position: 0 0;
+color:#dcdcdc;
+}
+
+.instruction{
+	width: 700px;
+	height: 300px;
+	border: 1px solid rgb(126, 51, 106);
+	background: #232323;
+	right: 50%;
+	margin:-30% 45%;
+	left: 50%;
+	border-radius: 15px;
+}
+#inst{
+	
+	font-size: 25px;
+	color: rgb(130, 60, 110);
+	font-family: "OCR A Std", monospace;
+	top: 0;
+ 	padding: 0;
+
+}
+#text{
+	color: #dcdcdc;
+	font-family: "OCR A Std", monospace;
+	font-size: 20px;
+	padding: 15px;
+}

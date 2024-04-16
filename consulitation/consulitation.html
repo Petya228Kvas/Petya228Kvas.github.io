@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		.raz { 
+  -moz-appearance: textfield;
+}
+.raz::-webkit-inner-spin-button { 
+  display: none;
+}
+	</style>
+	<meta charset="utf-8">
+	<link href="script.js">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="cons_css.css">
+	<link rel="icon" href="../Crystal_Full.png" style="font-size: 10em;">
+	<title>Crystal - Консультация</title>
+</head>
+<body bgcolor="black">
+	<a id="img" href="../main.html"><img src="../Crystal_Full.png" width="117" height="100" id="img"></a>
+	<span></span>
+	<hr color="#DCDCDC" size="0"><br>
+	
+	<form id="form">
+			<div class="main" align="center">
+	
+		<h1>Консультация</h1><br>
+		<div class="input-box" name="name">
+  			<label>Ваше имя</label>
+  			<input type="text" required>
+		</div><br><br><br>
+		<div class="input-box" name="email">
+  			<label>Email</label>
+  			<input type="text" required>
+		</div><br><br><br>
+		<div class="input-box" name="number">
+  			<label>Ваш номер телефона</label>
+  			<input class="raz" type="number" value="87"  required>
+		</div><br><br><hr><br><br><br><br>
+		<button id="send" class="glo" onclick="MyFunction()">Перезвоните мне!</button>
+	</form>
+	<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="script.js"></script>
+
+
+	</div>
+
+	<div class="instruction">
+		<center><p id="inst">Инструкция</p></center>
+		<p id='text'>После нажатия на кнопку <b>"Перезвоните мне!"</b>, ваши данные отправляются нам, и как только наш персонал будет свободен, он перезвонит вам!<br><br>Ожидание нашего звонка до 3-х дней.</p>
+	</div>
+
+
+	
+
+</body>
+</html>
